@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ChromaDB.Client.V2
+namespace MirDev.ChromaDB.Client.V2
 {
     internal class TenantClient : ITenantClient, IDisposable
     {
@@ -71,7 +71,7 @@ namespace ChromaDB.Client.V2
         public Task<Collection> GetCollectionAsync(Guid collectionId, string database)
         {
             ThrowIfDisposed();
-            return _parent.GetCollectionAsync(collectionId, database, _tenant);
+            return _parent.GetCollectionAsync(database, _tenant, collectionId);
         }
 
         /// <inheritdoc/>

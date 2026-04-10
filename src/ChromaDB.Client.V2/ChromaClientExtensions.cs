@@ -1,4 +1,4 @@
-﻿namespace ChromaDB.Client.V2
+﻿namespace MirDev.ChromaDB.Client.V2
 {
     public static class ChromaClientExtensions
     {

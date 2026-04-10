@@ -7,7 +7,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace ChromaDB.Client.V2.Http
+namespace MirDev.ChromaDB.Client.V2.Http
 {
     /// <summary>
     /// HTTP client for communicating with ChromaDB V2 API.

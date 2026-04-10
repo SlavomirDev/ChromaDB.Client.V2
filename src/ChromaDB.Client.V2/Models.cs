@@ -4,7 +4,7 @@ using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
 
-namespace ChromaDB.Client.V2
+namespace MirDev.ChromaDB.Client.V2
 {
     /// <summary>
     /// Specifies which fields to include in API responses.

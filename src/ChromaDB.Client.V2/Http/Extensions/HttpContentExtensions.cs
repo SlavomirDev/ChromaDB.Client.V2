@@ -3,7 +3,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace ChromaDB.Client.V2.Http
+namespace MirDev.ChromaDB.Client.V2.Http
 {
     internal static class HttpContentExtensions
     {

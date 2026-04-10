@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace ChromaDB.Client.V2
+namespace MirDev.ChromaDB.Client.V2
 {
     /// <summary>
     /// Represents an exception that occurs when interacting with the ChromaDB API.
