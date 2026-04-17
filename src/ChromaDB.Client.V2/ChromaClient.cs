@@ -1,10 +1,10 @@
-﻿using MirDev.ChromaDB.Client.V2.Http;
+﻿using ChromaDB.Client.V2.Http;
 
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace MirDev.ChromaDB.Client.V2
+namespace ChromaDB.Client.V2
 {
     /// <summary>
     /// Main client for interacting with ChromaDB V2 API.

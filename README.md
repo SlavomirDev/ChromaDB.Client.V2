@@ -12,7 +12,7 @@ A modern, feature-complete .NET client library for [ChromaDB](https://www.trychr
 ## Quick Start
 
 ``` Csharp
-using MirDev.ChromaDB.Client.V2;
+using ChromaDB.Client.V2;
 
 // Create a client connected to your ChromaDB instance
 var client = new ChromaClient("http://localhost:8000");

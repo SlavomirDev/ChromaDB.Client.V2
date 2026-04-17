@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace MirDev.ChromaDB.Client.V2
+namespace ChromaDB.Client.V2
 {
     internal class TenantClient : ITenantClient, IDisposable
     {
